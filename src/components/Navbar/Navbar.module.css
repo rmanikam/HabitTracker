@@ -1,0 +1,26 @@
+.outerContainer {
+  display: flex;
+  background-color: blue;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.detailButton {
+  position: absolute;
+  right: 134px;
+  top: 14px;
+}
+.detailButton:hover {
+  cursor: pointer;
+}
+
+.add {
+  position: absolute;
+  top: 14px;
+  right: 17px;
+  width: 92px;
+}
+
+.add:hover {
+  cursor: pointer;
+}

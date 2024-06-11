@@ -1,0 +1,105 @@
+.outerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  position: absolute;
+  top: 446px;
+  left: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 491px;
+  height: 200px;
+  background-color: blue;
+  z-index: 100;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  font-size: 32px;
+}
+.input {
+  width: 450px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.btnContainer {
+  position: absolute;
+  top: 156px;
+  left: 182px;
+}
+.cancel {
+  margin-right: 20px;
+}
+.cancel:hover {
+  cursor: pointer;
+}
+
+.save:hover {
+  cursor: pointer;
+}
+.index {
+  position: absolute;
+  left: 50px;
+  top: -31px;
+  margin-top: 30px;
+}
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: 1px solid black;
+  top: 62px;
+  width: 50%;
+  height: 100%;
+  left: 100px;
+  padding: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.habit {
+  position: absolute;
+  left: 334px;
+  top: -1px;
+}
+table {
+  border-spacing: 0 60px;
+}
+.habitName {
+  position: absolute;
+  left: 327px;
+}
+.weekView {
+  position: absolute;
+  left: 521px;
+}
+.deleteButton {
+  position: absolute;
+  left: 676px;
+}
+
+.indexValue {
+  position: absolute;
+  left: 59px;
+}
+tbody {
+  position: absolute;
+  top: 44px;
+  left: -1px;
+}
+
+.week:hover {
+  cursor: pointer;
+}
+.delete:hover {
+  cursor: pointer;
+}
