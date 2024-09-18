@@ -50,6 +50,7 @@ const HabitForm = () => {
       toast("Your habit added successfully");
       // clear the habits variable to empty string
       setHabits("");
+      dispatch(toggleShowNew());
     }
   };
 
